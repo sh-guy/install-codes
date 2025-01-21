@@ -74,7 +74,7 @@ if __name__ == '__main__':
     import sys
     __usage__ = 'usage: %s <code> \nconvert install code to link key'
     if len(sys.argv) != 2:
-        print __usage__ % sys.argv[0]
+        print(__usage__ % sys.argv[0])
         sys.exit(-1)
     code = decode(sys.argv[1])
-    print binascii.b2a_hex(code) 
+    print(binascii.b2a_hex(code)) 
