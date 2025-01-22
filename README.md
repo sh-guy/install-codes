@@ -16,7 +16,7 @@ To test the correctness of the result you can use the following code for validat
 83FE D340 7A93 9723 A5C6 39B2 6916 D505 C3B5
 
 Enter it like this:
-'''
+```
 $ python3 install_code.py 83FED3407A939723A5C639B26916D505C3B5
 Derived Link Key: 66b6900981e1ee3ca4206b6b861c02bb
-'''
+```
